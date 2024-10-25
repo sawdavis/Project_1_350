@@ -7,30 +7,62 @@ id = "process1"
 name = "To Do"
 
   [[processes.tasks]]
-  id = "task1"
-  title = "This is a new feature"
-  description = ""
+  id = "oapyijfkeificlu6w4d16dqu"
+  title = "Create Database"
+  description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
   checkList = [ ]
-  priority = ""
+  priority = "High"
   linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "amk26wi7xd80lj7dmu126ny1"
+  title = "Find Real-World Data"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = "High"
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "wryhdsk2vfg0dobff505s9zp"
+  title = "Create Core Tables"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = "High"
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "sdfw1k78zn29eacbe288o809"
+  title = "Create Functions & Procedures"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  priority = "High"
+  linkCommits = [ ]
+
+    [[processes.tasks.checkList]]
+    id = "lfjwukbcmqdsqcv6wa0bttfc"
+    title = "Function to Calculate Total Trade Value for a Specific Country"
+    completed = false
+
+    [[processes.tasks.checkList]]
+    id = "x4v5xwtv8qt4p2t7bqd7hawa"
+    title = "Function to Apply Tariff to a Commodity from a Specific Country"
+    completed = false
 
 [[processes]]
 id = "process2"
 name = "In Progress"
-
-  [[processes.tasks]]
-  id = "task2"
-  title = "This is a bug should be repair"
-  description = ""
-  tag = "bug"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
+tasks = [ ]
 
 [[processes]]
 id = "process3"
