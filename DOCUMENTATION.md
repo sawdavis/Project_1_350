@@ -5,7 +5,7 @@ A database related to U.S. import/export data, which will include key informatio
 
 ## Database Design
 
-**Core Tables:**
+### Core Tables:
 
 `countries:` Stores details of the countries involved in the trade.
 
@@ -22,3 +22,13 @@ A database related to U.S. import/export data, which will include key informatio
 `tariffs:` Stores tariff rates for commodities by country.
 
 `regulatory_agencies:` Lists U.S. agencies that oversee imports/exports (e.g., USDA, FDA).
+
+### Additional Schema Objects:
+
+**Functions & Procedures:** Procedures for calculating total import/export value, determining tariff rates, etc.
+
+`total_trade_value ():` Function to Calculate Total Trade Value for a Specific Country.
+
+`calculate_tariff ():` Function to Apply Tariff to a Commodity from a Specific Country.
+
+## Sample Data (Real and Hypothetical)

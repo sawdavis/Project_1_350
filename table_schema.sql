@@ -2,14 +2,14 @@
 CREATE TABLE countries (
     country_id SERIAL PRIMARY KEY,
     country_name VARCHAR(100) NOT NULL,
-    iso_code CHAR(3) NOT NULL UNIQUE -- ISO 3166-1 alpha-3 code
+    iso_code CHAR(3) NOT NULL UNIQUE
 );
 
 -- Create the schema for commodities
 CREATE TABLE commodities (
     commodity_id SERIAL PRIMARY KEY,
     commodity_name VARCHAR(255) NOT NULL,
-    hs_code VARCHAR(10) NOT NULL, -- Harmonized System code
+    hs_code VARCHAR(10) NOT NULL,
     description TEXT
 );
 
@@ -24,13 +24,13 @@ CREATE TABLE ports (
     port_id SERIAL PRIMARY KEY,
     port_name VARCHAR(255) NOT NULL,
     country_id INT REFERENCES countries(country_id),
-    port_type VARCHAR(20) -- Could be 'sea', 'air', or 'land'
+    port_type VARCHAR(20)
 );
 
 -- Create the schema for import/export transactions
 CREATE TABLE import_export_transactions (
     transaction_id SERIAL PRIMARY KEY,
-    trade_type VARCHAR(10) NOT NULL, -- 'import' or 'export'
+    trade_type VARCHAR(10) NOT NULL,
     commodity_id INT REFERENCES commodities(commodity_id),
     country_id INT REFERENCES countries(country_id),
     port_id INT REFERENCES ports(port_id),

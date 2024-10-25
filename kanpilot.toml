@@ -8,13 +8,13 @@ name = "To Do"
 
   [[processes.tasks]]
   id = "oapyijfkeificlu6w4d16dqu"
-  title = "Create Database"
+  title = "Create Real Postgres Database"
   description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
   checkList = [ ]
-  priority = "High"
+  priority = "Low"
   linkCommits = [ ]
 
   [[processes.tasks]]
@@ -25,18 +25,33 @@ name = "To Do"
   linkFiles = [ ]
   dueDate = ""
   checkList = [ ]
-  priority = "High"
+  priority = "Normal"
   linkCommits = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
 
   [[processes.tasks]]
   id = "wryhdsk2vfg0dobff505s9zp"
-  title = "Create Core Tables"
+  title = "Create ERD Diagram for Core Tables"
   description = "<p></p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
   checkList = [ ]
   priority = "High"
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "jeg1djyctiw26d61sf8rkiye"
+  title = "Make Documentation"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = "Low"
   linkCommits = [ ]
 
   [[processes.tasks]]
@@ -58,11 +73,6 @@ name = "To Do"
     id = "x4v5xwtv8qt4p2t7bqd7hawa"
     title = "Function to Apply Tariff to a Commodity from a Specific Country"
     completed = false
-
-[[processes]]
-id = "process2"
-name = "In Progress"
-tasks = [ ]
 
 [[processes]]
 id = "process3"
