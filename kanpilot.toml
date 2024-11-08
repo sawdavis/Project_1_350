@@ -5,17 +5,16 @@ skipFiles = [ ".gitignore", "package.json" ]
 [[processes]]
 id = "process1"
 name = "To Do"
+tasks = [ ]
 
-  [[processes.tasks]]
-  id = "oapyijfkeificlu6w4d16dqu"
-  title = "Create Real Postgres Database"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = "Low"
-  linkCommits = [ ]
+[[processes]]
+id = "process2"
+name = "In Progress"
+tasks = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
 
   [[processes.tasks]]
   id = "amk26wi7xd80lj7dmu126ny1"
@@ -28,10 +27,6 @@ name = "To Do"
   priority = "Normal"
   linkCommits = [ ]
 
-[[processes]]
-id = "process2"
-name = "In Progress"
-
   [[processes.tasks]]
   id = "wryhdsk2vfg0dobff505s9zp"
   title = "Create ERD Diagram for Core Tables"
@@ -41,17 +36,6 @@ name = "In Progress"
   dueDate = ""
   checkList = [ ]
   priority = "High"
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "jeg1djyctiw26d61sf8rkiye"
-  title = "Make Documentation"
-  description = "<p></p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = "Low"
   linkCommits = [ ]
 
   [[processes.tasks]]
@@ -74,7 +58,13 @@ name = "In Progress"
     title = "Function to Apply Tariff to a Commodity from a Specific Country"
     completed = false
 
-[[processes]]
-id = "process3"
-name = "Done"
-tasks = [ ]
+  [[processes.tasks]]
+  id = "jeg1djyctiw26d61sf8rkiye"
+  title = "Make Documentation"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = "Low"
+  linkCommits = [ ]
